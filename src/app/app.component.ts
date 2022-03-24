@@ -11,7 +11,7 @@ import { UsersService } from './users.service';
 export class AppComponent implements OnInit {
   title = 'task2';
   users!: User[];
-  firstTask: boolean = false;
+  firstTask: boolean = true;
   count: number[] = [1, 2, 3, 4, 5];
   
   constructor(private usersService: UsersService){}

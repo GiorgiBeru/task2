@@ -1,7 +1,8 @@
-<section class="card" [appColorSetter]="cardColor" appColorSetter>
+<section class="card" [appColorSetter]="cardColor">
     <h1 class="card__fullName">{{ user.firstName }} {{ user.lastName }}</h1>
     <p class="card__about">{{ user.about }}</p>
     <p class="card__age">{{ user.birthDate | agePipe }} years old</p>
-    <div class="card__status" [appColorSetter]="statusColor"> {{ user.status }} </div>
+    <div class="card__status" appColorSetter
+    [statusColor]="statusColor"> {{ user.status }} </div>
 </section>
 

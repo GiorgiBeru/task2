@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "Giorgi",
+        "lastName": "Kobalava",
+        "about": "About Giorgi",
+        "birthDate": "1999-10-23",
+        "status": "active"
+    },
+    {
+        "firstName": "Levan",
+        "lastName": "Chikobava",
+        "about": "About Levan",
+        "birthDate": "2000-09-23",
+        "status": "inactive"
+    }, {
+        "firstName": "Gela",
+        "lastName": "Kombala",
+        "about": "About Gela",
+        "birthDate": "1998-08-12",
+        "status": "deleted"
+    }
+  ]
+  
